@@ -1,0 +1,81 @@
+@import 'tailwindcss/tailwind.css';
+
+html {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+        }
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.order-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.order-details h2 {
+    margin-bottom: 20px;
+}
+.order-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.order-details table, .order-details th, .order-details td {
+    border: 1px solid #ddd;
+}
+.order-details th, .order-details td {
+    padding: 12px;
+    text-align: left;
+}
+.order-details th {
+    background-color: #f4f4f4;
+}
+.success-message {
+    font-size: 18px;
+    color: #4caf50;
+}
+
+ html {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+        }

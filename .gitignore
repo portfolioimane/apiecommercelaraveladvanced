@@ -1,0 +1,90 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.vscode
+/.idea
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# Laravel IDE Helper
+_ide_helper.php
+_ide_helper_models.php
+_ide_helper.html
+
+# Laravel Telescope
+telescope/
+
+# Laravel Dusk
+DuskTestCase.php
+
+# Log files
+*.log
+
+# Composer
+/composer.phar
+/composer.lock
+
+# NPM
+package-lock.json
+yarn.lock
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache files
+/.phpunit.cache
+/.composer
+/.cache
+
+# Miscellaneous
+*.sqlite
+*.sql
+*.swp
+*.swo
+*.DS_Store
+*.thumb
+*.npmrc
+
+# SASS
+.sass-cache/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Linux system files
+*~
+
+# IDEs and Editors
+/.vscode
+/.idea
+/.project
+/.settings
+/.history
+*.sublime-workspace
+*.sublime-project
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File upload directories
+/public/uploads
+
+# Laravel Debugbar
+/_ide_helper.php
+/_ide_helper_models.php
+/_ide_helper.html
